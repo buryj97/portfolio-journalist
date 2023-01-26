@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+
+<!-- HEADER -->
+<header>
+    <div id="headerTop">
+        <h1 id="siteName"> <a class="homeLink" href="/index.html">Julia Benarrous</a></h1>
+
+
+        <!-- MENU -->
+
+        <ul id="menu">
+            <li class="menuItem"><a class="menuLink" href="/index.html"> Visuals </a></li>
+            <li class="menuItem"><a class="menuLink" href="/index.html"> Writing </a></li>
+            <li class="menuItem"><a class="menuLink" href="./Pages/about.html"> About </a></li>
+        </ul>
+    </div>
+
+    <div id="headerBottom">
+        <hr id="leftLine">
+        <h4 id="job">Editorial Producer</h4>
+        <hr id="rightLine">
+
+    </div>
+</header>
+
+<body>
+
+    <form action="mailto:buryj15@gmail.com" method="post" enctype="text/plain">
+        Name:<input type="text" name="Name">
+        Email:<input type="text" name="Email">
+        Message:<input type="text" name="Message">
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <?php require 'contact.php'; ?>
+    <form action="contact.php" method="post">
+        <div class="elem-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+            <label for="email">Your E-mail</label>
+            <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+        </div>
+        <div class="elem-group">
+            <label for="message">Write your message</label>
+            <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <script src="/scripts/scripts.js" async defer></script>
+</body>
+
+</html>
