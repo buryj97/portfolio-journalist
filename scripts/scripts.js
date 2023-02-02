@@ -22,5 +22,3 @@ const goToTop = () => {
 };
 
 backToTopButton.addEventListener("click", goToTop);
-
-// Contact form

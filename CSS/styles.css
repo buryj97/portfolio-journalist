@@ -121,6 +121,10 @@ a.menuLink:hover {
   color: #a63c06;
 }
 
+.active {
+  color: #a63c06;
+}
+
 /* VISUAL ELEMENTS */
 
 hr {
@@ -207,36 +211,14 @@ img {
 .storyIntro {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
+  margin-left: 20px;
   padding-right: 20px;
+  width: 25%;
 }
 
-/* BORDER PATROL */
-
-#borderPatrol {
+#introDiv {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.subhead {
-  display: flex;
-  align-items: flex-start;
-}
-
-.storyHeading {
-  text-align: center;
-}
-
-.video {
-  padding: 20px;
-}
-
-.textStory {
-  margin-left: 80px;
-  margin-right: 80px;
-  text-align: justify;
-  text-indent: 4em;
+  justify-content: space-around;
 }
 
 /* LARGE BUTTON */
@@ -247,7 +229,7 @@ img {
   border: 1px solid #003566;
   color: #003566;
   display: inline-block;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 15px;
   padding: 18px 18px 17px;
   text-decoration: none;
@@ -259,6 +241,7 @@ img {
   height: 50px;
   width: 130px;
   margin-top: 20px;
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
 .button span:first-child {
@@ -275,7 +258,7 @@ img {
   transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
   z-index: 100;
   opacity: 0;
-  top: 65%;
+  top: 70%;
   left: 50%;
   transform: translateY(225%) translateX(-50%);
   height: 14px;
@@ -314,10 +297,10 @@ img {
   bottom: 2rem;
   border-radius: 100%;
   background: var(--prussianBlue);
-  padding: 0.5rem;
+  padding: 1rem;
   border: none;
   cursor: pointer;
-  opacity: 100%;
+  opacity: 80%;
   transition: opacity 0.5s;
 }
 
@@ -326,25 +309,49 @@ img {
 }
 
 .back-to-top-icon {
-  width: 1rem;
-  height: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
   color: white;
 }
 
 .back-to-top:hover {
-  opacity: 80%;
+  opacity: 100%;
+  border: none;
 }
 
 /* FOOTER */
 
 footer {
   display: flex;
-  justify-content: space-evenly;
-  margin: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 #footerLine {
-  margin: 20px;
+  margin-top: 40px;
+}
+
+#socials {
+  display: flex;
+  padding-right: 50px;
+}
+
+.socialIcon {
+  list-style: none;
+  padding: 0;
+  margin-left: -30px;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  object-fit: fill;
+  border-radius: 30%;
+  padding: 0;
+}
+
+#credit {
+  padding-left: 110px;
 }
 
 /* Contact form */
