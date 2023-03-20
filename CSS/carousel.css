@@ -1,0 +1,42 @@
+.slider {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden; /* <===  */
+}
+
+.slide {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  transition: all 0.7s;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  /* padding: 10px; */
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  /* background-color: #fff; */
+  font-size: 18px;
+  opacity: 20%;
+}
+.btn:hover {
+  opacity: 100%;
+}
+.btn:active {
+  transform: scale(1.1);
+}
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
