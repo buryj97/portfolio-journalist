@@ -42,7 +42,8 @@ h5 {
   margin: 0;
 }
 
-p {
+p,
+label {
   font-family: Verdana, "Geneva", Tahoma, sans-serif;
   font-size: 12px;
   color: var(--bodyGrey);
@@ -63,6 +64,7 @@ header {
 
 .homeLink {
   text-decoration: none;
+  color: var(--mikadoYellow);
 }
 
 a.homeLink:visited {
@@ -176,12 +178,6 @@ img {
   margin-right: 50px;
 }
 
-#visualHeader {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-
 .visualPackage {
   display: flex;
 }
@@ -222,6 +218,11 @@ img {
   justify-content: space-around;
 }
 
+.header1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
 /* LARGE BUTTON */
 
 .button {
@@ -356,45 +357,35 @@ footer {
 }
 
 /* Contact form */
-/* 
+
 div.elem-group {
   margin: 40px 0;
 }
 
 label {
   display: block;
-  font-family: "Aleo";
-  padding-bottom: 4px;
-  font-size: 1.25em;
+  padding-bottom: 1rem;
 }
 
 input,
 select,
 textarea {
-  border-radius: 2px;
+  border-radius: 0.2rem;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  font-size: 1.25em;
-  font-family: "Aleo";
-  width: 500px;
-  padding: 8px;
+  width: 50rem;
+  padding: 1rem;
+  align-content: start;
+  margin-bottom: 2rem;
 }
 
 textarea {
-  height: 250px;
+  height: 10rem;
 }
 
-button {
-  height: 50px;
-  background: green;
-  color: white;
-  border: 2px solid darkgreen;
-  font-size: 1.25em;
-  font-family: "Aleo";
-  border-radius: 4px;
-  cursor: pointer;
+.form-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
-
-button:hover {
-  border: 2px solid black;
-} */
