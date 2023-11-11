@@ -158,8 +158,8 @@ hr {
 
 #homeOpener {
   display: flex;
-  padding-top: 75px;
-  padding-bottom: 150px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 #julia {
@@ -193,13 +193,24 @@ img {
 
 .visualPackage {
   display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
 }
 
+.slide {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  & .textBox {
+    margin: auto;
+    width: 50rem;
+  }
+}
 .textBox {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
-  padding-right: 20px;
+  margin-left: 3rem;
+  padding-right: 3rem;
   margin-bottom: 3rem;
 }
 
@@ -212,11 +223,6 @@ img {
 }
 
 /* FAVORITE STORIES */
-
-#favoriteStories {
-  display: flex;
-  justify-content: center;
-}
 
 .storyIntro {
   display: flex;
@@ -235,7 +241,14 @@ img {
 .header1 {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
+  margin: 0;
+}
+
+#cvDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
 }
 /* LARGE BUTTON */
 
@@ -258,6 +271,25 @@ img {
   width: 130px;
   margin-top: 1rem;
   font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+.cvButton {
+  border: 1px solid #a63c06;
+  color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 15px;
+  padding-top: 1.8rem;
+  text-decoration: none;
+  cursor: pointer;
+  background: #a63c06;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 3rem;
+  width: 15rem;
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+  text-align: center;
 }
 
 .button span:first-child {
@@ -402,4 +434,9 @@ textarea {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+iframe {
+  width: auto;
+  height: auto;
 }
