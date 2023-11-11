@@ -45,12 +45,21 @@ h5 {
 p,
 label {
   font-family: Verdana, "Geneva", Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: 0.72rem;
   color: var(--bodyGrey);
   text-align: justify;
   margin: 0;
+  line-height: 1.25rem;
 }
 
+.text-md {
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+  font-size: 0.87rem;
+  font-style: italic;
+  text-align: justify;
+  margin: 0;
+  line-height: 1.25rem;
+}
 /* HEADER */
 
 header {
@@ -163,9 +172,13 @@ hr {
 
 #aboutIntro {
   text-align: justify;
-  width: 600px;
+  width: 40rem;
+  height: 15rem;
   padding-left: 60px;
   padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 /* VISUAL PROJECTS */
@@ -187,6 +200,7 @@ img {
   flex-direction: column;
   margin-left: 50px;
   padding-right: 20px;
+  margin-bottom: 3rem;
 }
 
 .projectTitle {
@@ -242,7 +256,7 @@ img {
   touch-action: manipulation;
   height: 50px;
   width: 130px;
-  margin-top: 20px;
+  margin-top: 1rem;
   font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
