@@ -20,6 +20,12 @@
     <header>
         <div id="headerTop">
             <h1 id="siteName"> <a class="homeLink" href="./index.html">Julia Benarrous</a></h1>
+
+            <ul id="menu">
+                <li class="menuItem"><a class="menuLink" href="#recentVisual"> Recent Projects </a></li>
+                <li class="menuItem"><a class="menuLink" href="#previous"> Previous Work </a></li>
+                <li class="menuItem"><a class="menuLink" href="#contact"> Contact </a></li>
+            </ul>
         </div>
 
         <div id="headerBottom">
@@ -38,7 +44,9 @@
             <img id="julia" src="./images/julia.jpg" alt="Julia Benarrous">
 
             <div id="aboutIntro">
-                <p>Currently an <span style="color: #FFC300">Editorial Producer</span> at the Emmy®-nominated VR
+                <p>Currently an <span style="color: var(--mikadoYellow)">Editorial Producer</span> at
+                    the
+                    Emmy®-nominated VR
                     documentary production
                     studio TARGO in Paris, I am a people-driven professional fascinated by film and show production.</p>
 
@@ -46,9 +54,13 @@
                     Fluent in French, English, and Spanish, I have experience in writing, production, development,
                     research, licensing, and distribution.
 
-                    I am a <span style="color: #003566">skilled planner, organizer, and team player</span>.</p>
+                    I am a <span style="color: var(--prussianBlue)">skilled planner, organizer, and team
+                        player</span>.
+                </p>
                 <p>
-                    After graduating from <span style="color: #A63C06">Sciences Po Paris</span> with a master's degree
+                    After graduating from <span style="color: var(--rust)">Sciences Po Paris</span>
+                    with a
+                    master's degree
                     in
                     Journalism, I joined AFP's team in the United States
                     as the Texas text & video correspondent. I have also dabbled in copywriting and comms, content
@@ -65,7 +77,7 @@
         <!-- VISUALS PROJECTS -->
 
         <div id="recentVisual">
-            <h1 class="header1">Recent Visual Projects</h1>
+            <h1 class="header1">Recent Projects</h1>
 
             <!-- VISUAL 1 -->
 
@@ -90,28 +102,27 @@
                     <p><strong>Skills:</strong> Fact-checking, research, licensing, distribution, writing, planning,
                         budgeting, project management, production
                     </p><br>
-                    <p><strong>Licensing:</strong> Managed the archive licensing process and budget for hundreds of
-                        media items.</p>
-                    <p><strong>Fact-checking:</strong> Liaised between the director and the 3D team to ensure
-                        historical accuracy during 3D environment reconstruction, with help from the Sixth Floor Museum
-                        at
-                        Dealey Plaza's
-                        collections director.</p>
-                    <p><strong>Distribution:</strong> Prepared the press kit submitted to journalists and festivals,
-                        which included press releases, visual assets and
-                        accessibility documents. Attended the 2023 SXSW festival in Austin, Texas,
-                        where JFK Memento Part
-                        1 won the XR Competition Audience Award, as part of the delegation sent by Targo, to present our
-                        documentaries to a broad audience on our stands.</p>
-                    <p><strong>Pre-production:</strong> Researched characters, located them and conducted
+                    <p><strong>Pre-production & Editorial:</strong> Researched characters, contacted them and conducted
                         pre-interviews before writing scripts to help feed the main
-                        scenario. Assisted the director in writing the main scenario.</p>
+                        scenario. Assisted the director in writing the main scenario and wrote the behind-the-scenes
+                        video.</p>
+                    <p><strong>Production:</strong> Transcribed and translated the screenplay to French and Spanish,
+                        cast and hired voiceover actors in several languages,
+                        managed the freelance budget and database, and consolidated the credits file.</p>
+                    <p><strong>Licensing:</strong> Liaised between the director and the 3D team to ensure historical
+                        accuracy during 3D environment reconstruction, with
+                        help from the Sixth Floor Museum at Dealey Plaza's collections director.</p>
+                    <p><strong>Distribution:</strong> Prepared the press kit submitted to journalists and festivals,
+                        which included press releases, visual assets, tech and
+                        accessibility documents. Traveled to Austin, TX and presented TARGO’s documentaries to thousands
+                        of people on our stands
+                        during the 2023 edition of SXSW where JFK Memento won the XR Competition Audience Award.</p>
 
                     <button onclick="window.open('https:\/\/www.targostories.com/jfk-memento')" class="button"
                         role="button"><span class="text">Read more</span><span>JFK</span></button>
                 </div>
 
-                <img src="./images/JKF_thumb.png"
+                <img src="./images/JFK_thumb.jpeg"
                     alt="Release poster for the Targo documentary 'JFK Memento: A Chronicle of the Assassination'">
             </div>
 
@@ -138,20 +149,16 @@
                         contracts
                     </p><br>
                     <p><strong>Pre-production:</strong> Researched food-related topics and characters, conducted
-                        pre-interviews
-                        with chefs from several
-                        countries, and edited script drafts written by the director.</p>
-                    <p><strong>Production:</strong> Planned several week-long filming trips to Japan and the USA
-                        with the producer and captured 360° videos and
-                        sound for each episode of the series on the ground.
-                        Hired and briefed freelancers from a budget I managed.</p>
-                    <p><strong>Release:</strong> Drew up the release plan of the series and the copy on social
-                        media,
-                        handled the
-                        publishing process on Meta
-                        Quest TV and oversaw PR efforts and media outreach. Submitted the series to dozens of
-                        festivals throughout the year
-                        and responded to interviews on the project.</p>
+                        pre-interviews with chefs from several countries, and edited
+                        screenplay drafts written by the director.</p>
+                    <p><strong>Production:</strong> Planned several week-long filming trips to Japan and the USA.
+                        Managed a budget and cast, hired and briefed freelancers.
+                        Captured 360° videos and sound for each episode of the series on the ground.</p>
+                    <p><strong>Licensing:</strong> Licensed artwork and photographs and managed a budget.</p>
+                    <p><strong>PR:</strong> Drew up the release plan of the series and the copy on social media.</p>
+                    <p><strong>Distribution:</strong> Handled the publishing process on Meta Quest TV. Oversaw PR
+                        efforts and media outreach. Submitted the series to dozens
+                        of festivals throughout the year and responded to interviews on the project.</p>
 
 
                     <button class="button" role="button"
@@ -159,36 +166,42 @@
                             more</span><span>BTD</span></button>
                 </div>
 
-                <img src="/images/BTD.jpg" alt="Release poster for the Targo documentary 'Behind the Dish'">
-            </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/76Aco51v3PY?si=01gypJWC6npImNk6"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
 
+                </div>
+            </div>
 
         </div>
 
-        <h1 class="header1">Other Work</h1>
+        <h1 id="previous" class="header1" style="padding-bottom: 1rem;">Previous Work</h1>
         <!-- Slider container -->
         <div class="slider">
             <!-- slide 1 -->
             <div class="slide">
                 <div class="textBox">
-                    <h3 class="projectTitle">EL PASO ECRASEE PAR LA COVID-19 (2020)</h3>
+                    <h3 class="projectTitle">EL PASO ECRASÉE PAR LE COVID-19</h3>
                     <h4 class="role">Reporter</h4>
 
                     <br>
 
                     <h5>AFP</h5>
-                    <h5>Published</h5>
 
                     <br>
-
-                    <p>Vêtus d'un uniforme à rayures, protégés par un masque, des gants et des lunettes, des détenus
-                        s'activent pour gérer
-                        l'afflux des corps à la morgue. El Paso, au Texas, croule sous le nombre de cas de coronavirus.
-                    </p>
+                    <div class="desc">
+                        <p>Vêtus d'un uniforme à rayures, protégés par un masque, des gants et des lunettes, des détenus
+                            s'activent pour gérer
+                            l'afflux des corps à la morgue. El Paso, au Texas, croule sous le nombre de cas de
+                            coronavirus.
+                        </p>
+                    </div>
 
                     <button class="button" role="button"
                         onclick="window.open('https:\/\/www.lapresse.ca/international/etats-unis/2020-11-19/texas/el-paso-ecrasee-par-la-covid-19.php','_blank');"><span
-                            class="text">Read more</span><span>EL PASO</span></button>
+                            class="text">Read more</span><span>HEALTH</span></button>
                 </div>
 
             </div>
@@ -196,64 +209,41 @@
             <!-- slide 2 -->
             <div class="slide">
                 <div class="textBox">
-                    <h3 class="projectTitle">US BORDER PATROL AGENTS (2020)</h3>
+                    <h3 class="projectTitle">LA TRAQUE DES CLANDESTINS À LA FRONTIÈRE DÉSERTIQUE DU TEXAS</h3>
                     <h4 class="role">Reporter</h4>
 
                     <br>
 
                     <h5>AFP</h5>
-                    <h5>Published</h5>
 
                     <br>
+                    <div class="desc">
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jY0xwpAFv3A?si=UR7_1ohXRHCSL8o1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                        <p>Il n'a fallu qu'un instant à l'agent des douanes Gregory Davis pour apercevoir une tache de
+                            couleur sur un canyon
+                            escarpé et repérer un homme coiffé d’un bonnet noir, prostré sur un rocher. En détresse, cet
+                            homme originaire du Guatemala a traversé illégalement les montagnes mexicaines et le Rio
+                            Grande
+                            pour
+                            rejoindre les Etats-Unis.</p>
+                    </div>
 
                     <button class="button" role="button"
                         onclick="window.open('https:\/\/www.courrier-picard.fr/id67766/article/2020-02-09/la-traque-des-clandestins-la-frontiere-desertique-du-texas','_blank');"><span
                             class="text">Read
-                            more</span><span>USCBP</span></button>
-                </div>
-            </div>
-
-            <!-- slide 3 -->
-            <div class="slide">
-                <div class="textBox">
-                    <h3 class="projectTitle">HOMMAGE À JOHNNY HALLYDAY (2018)</h3>
-                    <h4 class="role">Reporter</h4>
-
-                    <br>
-
-                    <h5>Le Figaro</h5>
-                    <h5>Completed</h5>
-
-                    <br>
-
-                    <p>Ils ont parfois fait des centaines de kilomètres pour célébrer leur idole disparue en décembre.
-                        Mais
-                        sans ticket d'entrée, impossible de gagner l'église parisienne pour l'hommage musical organisé
-                        vendredi matin. Paroles
-                        de fans.</p>
-
-                    <button class="button" role="button"
-                        onclick="window.open('https:\/\/www.lefigaro.fr/musique/2018/06/15/03006-20180615ARTFIG00355-hommage-a-johnny-hallyday-apres-son-deces-je-suis-devenue-comme-possedee.php','_blank');"><span
-                            class="text">Read
-                            more</span><span>HALLYDAY</span></button>
+                            more</span><span>IMMIGRATION</span></button>
                 </div>
             </div>
 
             <!-- slide 4 -->
             <div class="slide">
                 <div class="textBox">
-                    <h3 class="projectTitle">U.S. OIL WORKERS LEARN PATIENCE (2020)</h3>
+                    <h3 class="projectTitle">U.S. OIL WORKERS LEARN PATIENCE</h3>
                     <h4 class="role">Reporter</h4>
 
                     <br>
 
                     <h5>AFP</h5>
-                    <h5>Completed</h5>
 
                     <br>
 
@@ -264,21 +254,20 @@
                     <button class="button" role="button"
                         onclick="window.open('https:\/\/energy.economictimes.indiatimes.com/news/oil-and-gas/with-prices-down-and-jobs-leaving-us-oil-workers-learn-patience/75667047?redirect=1','_blank');"><span
                             class="text">Read
-                            more</span><span>OIL</span></button>
+                            more</span><span>ENERGY</span></button>
                 </div>
             </div>
 
             <!-- slide 5 -->
             <div class="slide">
                 <div class="textBox">
-                    <h3 class="projectTitle">A PROPÓSITO DE CANNES, ¿SON LAS PLATAFORMAS DIGITALES UNA AMENAZA PARA EL
-                        CINE TRADICIONAL? (2019)</h3>
+                    <h3 class="projectTitle">¿SON LAS PLATAFORMAS DIGITALES UNA AMENAZA PARA EL
+                        CINE TRADICIONAL?</h3>
                     <h4 class="role">Commentator</h4>
 
                     <br>
 
                     <h5>France 24</h5>
-                    <h5>Published</h5>
 
                     <br>
 
@@ -293,7 +282,33 @@
                     <button class="button" role="button"
                         onclick="window.open('https:\/\/www.france24.com/es/20190512-primera-plana-cine-cannes-netflix','_blank');"><span
                             class="text">Read
-                            more</span><span>CANNES</span></button>
+                            more</span><span>CULTURE</span></button>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="textBox">
+                    <h3 class="projectTitle">HOMMAGE À JOHNNY HALLYDAY : «APRÈS SON DÉCÈS, JE SUIS DEVENUE COMME
+                        POSSÉDÉE»</h3>
+                    <h4 class="role">Reporter</h4>
+
+                    <br>
+
+                    <h5>Le Figaro</h5>
+
+                    <br>
+
+                    <p>Ils ont parfois fait des centaines de kilomètres pour célébrer leur idole disparue
+                        en décembre.
+                        Mais
+                        sans ticket d'entrée, impossible de gagner l'église parisienne pour l'hommage musical organisé
+                        vendredi matin. Paroles
+                        de fans.</p>
+
+                    <button class="button" role="button"
+                        onclick="window.open('https:\/\/www.lefigaro.fr/musique/2018/06/15/03006-20180615ARTFIG00355-hommage-a-johnny-hallyday-apres-son-deces-je-suis-devenue-comme-possedee.php','_blank');"><span
+                            class="text">Read
+                            more</span><span>CULTURE</span></button>
                 </div>
             </div>
 
@@ -301,13 +316,12 @@
             <div class="slide">
                 <div class="textBox">
                     <h3 class="projectTitle">ENQUÊTE SUR CES JOURNALISTES QUI JOUENT LEUR PROPRE RÔLE DANS LES FICTIONS
-                        (2021)</h3>
+                    </h3>
                     <h4 class="role">Reporter</h4>
 
                     <br>
 
                     <h5>Les Inrockuptibles</h5>
-                    <h5>Published</h5>
 
                     <br>
 
@@ -318,21 +332,19 @@
                     <button class="button" role="button"
                         onclick="window.open('https:\/\/www.lesinrocks.com/actu/enqu%c3%aate-sur-ces-journalistes-qui-jouent-leur-propre-r%c3%b4le-dans-les-fictions-134171-02-02-2018/','_blank');"><span
                             class="text">Read
-                            more</span><span>INROCKS</span></button>
+                            more</span><span>MEDIA</span></button>
                 </div>
             </div>
 
             <!-- slide 7 -->
             <div class="slide">
                 <div class="textBox">
-                    <h3 class="projectTitle">Y A-T-IL UN AVENIR JAPONAIS POUR LES AUTEURS DE MANGA FRANÇAIS ?
-                        (2018)</h3>
+                    <h3 class="projectTitle">Y A-T-IL UN AVENIR JAPONAIS POUR LES AUTEURS DE MANGA FRANÇAIS ?</h3>
                     <h4 class="role">Reporter</h4>
 
                     <br>
 
                     <h5>Le Figaro</h5>
-                    <h5>Published</h5>
 
                     <br>
 
@@ -345,7 +357,7 @@
                     <button class="button" role="button"
                         onclick="window.open('https:\/\/www.lefigaro.fr/bd/2018/07/07/03014-20180707ARTFIG00089-y-a-t-il-un-avenir-pour-les-auteurs-de-manga-francais.php','_blank');"><span
                             class="text">Read
-                            more</span><span>INROCKS</span></button>
+                            more</span><span>MEDIA</span></button>
                 </div>
             </div>
 
@@ -361,7 +373,7 @@
         </div>
         <!-- Contact Form -->
         <div class="elem-group"></div>
-        <h1 class="header1">Contact</h1>
+        <h1 id="contact" class="header1">Contact</h1>
         <form class="form-parent" name="contact" method="POST" data-netlify="true">
             <label for="name">Your Name:</label>
             <input type="text" name="name" />

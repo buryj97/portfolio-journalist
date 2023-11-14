@@ -4,12 +4,16 @@
   --subtitleGrey: #4a4a4a;
   --goldWebGolden: #ffd60a;
   --mikadoYellow: #ffc300;
-  --prussianBlue: #003566;
+  --prussianBlue: #1a51b7;
   --oxfordBlue: #001d3d;
   --rust: #a63c06;
 }
 
 /* STYLE RULES */
+
+html {
+  scroll-behavior: smooth;
+}
 
 h1 {
   color: var(--prussianBlue);
@@ -185,25 +189,40 @@ hr {
 
 img {
   object-fit: fill;
-  width: 512px;
-  height: 300px;
+  width: 90rem;
+  height: 18rem;
   padding: 20px 0 30px 30px;
   margin-right: 50px;
+}
+
+.video {
+  /* object-fit: cover; */
+  width: 55rem;
+  height: 18rem;
+  padding: 20px 0 30px 30px;
+  margin-right: 50px;
+}
+
+iframe {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .visualPackage {
   display: flex;
   align-items: center;
   margin-bottom: 4rem;
+  position: relative;
 }
 
 .slide {
   display: flex;
   justify-content: center;
   margin: 0;
+  height: 100%;
   & .textBox {
     margin: auto;
-    width: 50rem;
+    /* width: 50rem; */
   }
 }
 .textBox {
@@ -269,7 +288,7 @@ img {
   touch-action: manipulation;
   height: 50px;
   width: 130px;
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
