@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="/CSS/carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
@@ -374,14 +375,14 @@
         <!-- Contact Form -->
         <div class="elem-group"></div>
         <h1 id="contact" class="header1">Contact</h1>
-        <form class="form-parent" name="contact" method="POST" data-netlify="true">
+        <form class="form-parent" id="contactForm" name="contact" method="POST" data-netlify="true">
             <label for="name">Your Name:</label>
-            <input type="text" name="name" />
+            <input type="text" name="name" id="name" placeholder="Jane Doe" />
             <label for="email">Your Email:</label>
-            <input type="email" name="email" />
+            <input type="email" name="email" id="email" placeholder="mail@you.com" />
 
             <label for="message">Message:</label>
-            <textarea name="message"></textarea>
+            <textarea name="message" id="message" placeholder="Your message here"></textarea>
             <button class="button" type="submit"><span class="text">Send</span><span>Send</span>
             </button>
             </p>
