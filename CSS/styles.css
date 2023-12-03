@@ -203,14 +203,15 @@ img {
 }
 
 .video {
-  /* object-fit: cover; */
   width: 57rem;
   height: 18rem;
   padding: 2rem 0 3rem 3rem;
   margin-right: 3rem;
+  position: relative;
+  aspect-ratio: 16 / 9;
 }
 
-iframe {
+.iframe {
   width: 100% !important;
   height: 100% !important;
 }
@@ -218,6 +219,7 @@ iframe {
 .visualPackage {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   margin-bottom: 4rem;
   position: relative;
 }

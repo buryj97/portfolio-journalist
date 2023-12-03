@@ -123,8 +123,13 @@
                         role="button"><span class="text">Read more</span><span>JFK</span></button>
                 </div>
 
-                <img src="./images/JFK_thumb.jpeg"
-                    alt="Release poster for the Targo documentary 'JFK Memento: A Chronicle of the Assassination'">
+                <div class="video">
+                    <iframe class="iframe" src="https://www.youtube.com/embed/PeqFsy2ra3c?si=aQ0nIWqmlFhUu-6k"
+                        title="Youtube trailer for the documentary 'JFK Memento'" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                </div>
             </div>
 
 
@@ -168,8 +173,8 @@
                 </div>
 
                 <div class="video">
-                    <iframe src="https://www.youtube.com/embed/76Aco51v3PY?si=01gypJWC6npImNk6"
-                        title="YouTube video player" frameborder="0"
+                    <iframe class="iframe" src="https://www.youtube.com/embed/76Aco51v3PY?si=01gypJWC6npImNk6"
+                        title="Youtube trailer for 'Behind The Dish'" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
 
@@ -377,9 +382,9 @@
         <h1 id="contact" class="header1">Contact</h1>
         <form class="form-parent" id="contactForm" name="contact" method="POST" data-netlify="true">
             <label for="name">Your Name:</label>
-            <input type="text" name="name" id="name" placeholder="Jane Doe" />
+            <input type="text" name="name" id="name" placeholder="Jane Doe" autocomplete="name" />
             <label for="email">Your Email:</label>
-            <input type="email" name="email" id="email" placeholder="mail@you.com" />
+            <input type="email" name="email" id="email" placeholder="mail@you.com" autocomplete="email" />
 
             <label for="message">Message:</label>
             <textarea name="message" id="message" placeholder="Your message here"></textarea>
