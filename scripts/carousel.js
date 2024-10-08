@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 // Select all slides
 const slides = document.querySelectorAll(".slide");
 

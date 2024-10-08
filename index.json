@@ -1,0 +1,99 @@
+{
+  "title": "Julia Benarrous",
+  "header": {
+    "jobTitle": "Editorial Producer",
+    "menuItems": [
+      { "label": "Recent Projects", "link": "#recentVisual" },
+      { "label": "Previous Work", "link": "#previous" },
+      { "label": "Contact", "link": "#contact" }
+    ]
+  },
+  "about": {
+    "aboutIntro": "<div id=\"aboutIntro\" data-sb-field=\"aboutIntro\">\n<p>Currently an <span style=\"color: var(--mikadoYellow)\">Editorial Producer</span> at the Emmy®-nominated VR documentary production studio TARGO in Paris, I am a people-driven professional fascinated by film and show production.</p>\n<p>I combine my best creative and operational skills to make projects bloom. Fluent in French, English, and Spanish, I have experience in writing, production, development, research, licensing, and distribution. I am a <span style=\"color: var(--prussianBlue)\">skilled planner, organizer, and team player</span>.</p>\n<p>After graduating from <span style=\"color: var(--rust)\">Sciences Po Paris</span> with a master's degree in Journalism, I joined AFP's team in the United States as the Texas text & video correspondent. I have also dabbled in copywriting and comms, content strategy, and publishing.</p>\n<p>I'm a curious cat and an observant conversationalist. Current interests include composting, barefoot shoes, and choral singing.</p>\n</div>"
+  },
+  "projects": [
+    {
+      "title": "JFK MEMENTO",
+      "role": "Editorial Producer",
+      "type": "VR Documentary",
+      "releaseDate": "Released",
+      "description": "<p class=\"text-md\" data-sb-field=\"project1Description\">Sixty years after President Kennedy's assassination, dive into the archives and the testimonies of the last living witnesses of the case to travel back in time thanks to the radically new medium of virtual reality.</p><br>\n<p><strong>Skills:</strong> Fact-checking, research, licensing, distribution, writing, planning, budgeting, project management, production</p><br>\n<p><strong>Pre-production & Editorial:</strong> Researched characters, contacted them and conducted pre-interviews before writing scripts to help feed the main scenario. Assisted the director in writing the main scenario and wrote the behind-the-scenes video.</p>\n<p><strong>Production:</strong> Transcribed and translated the screenplay to French and Spanish, cast and hired voiceover actors in several languages, managed the freelance budget and database, and consolidated the credits file.</p>\n<p><strong>Licensing:</strong> Liaised between the director and the 3D team to ensure historical accuracy during 3D environment reconstruction, with help from the Sixth Floor Museum at Dealey Plaza's collections director.</p>\n<p><strong>Distribution:</strong> Prepared the press kit submitted to journalists and festivals, which included press releases, visual assets, tech and accessibility documents. Traveled to Austin, TX and presented TARGO’s documentaries to thousands of people on our stands during the 2023 edition of SXSW where JFK Memento won the XR Competition Audience Award.</p>",
+      "url": "https://www.targostories.com/jfk-memento"
+    },
+    {
+      "title": "BEHIND THE DISH (2022)",
+      "role": "Editorial Producer",
+      "type": "VR Docu-series",
+      "releaseDate": "Released",
+      "description": "<p class=\"text-md\" data-sb-field=\"project2Description\">Behind the Dish is a virtual reality docuseries on gastronomy and female chefs, filmed in VR 360° and macro stereo 3D.</p><br>\n<p><strong>Skills:</strong> Production, project management, research, writing, planning, video capture, budgeting, social media, contracts</p><br>\n<p><strong>Pre-production:</strong> Researched food-related topics and characters, conducted pre-interviews with chefs from several countries, and edited screenplay drafts written by the director.</p>\n<p><strong>Production:</strong> Planned several week-long filming trips to Japan and the USA. Managed a budget and cast, hired and briefed freelancers. Captured 360° videos and sound for each episode of the series on the ground.</p>\n<p><strong>Licensing:</strong> Licensed artwork and photographs and managed a budget.</p>\n<p><strong>PR:</strong> Drew up the release plan of the series and the copy on social media.</p>\n<p><strong>Distribution:</strong> Handled the publishing process on Meta Quest TV. Oversaw PR efforts and media outreach. Submitted the series to dozens of festivals throughout the year and responded to interviews on the project.</p>",
+      "url": "https://www.targostories.com/jfk-memento"
+    },
+    {
+      "title": "BEHIND THE DISH (2022)",
+      "role": "Editorial Producer",
+      "type": "VR Docu-series",
+      "releaseDate": "Released",
+      "description": "<p class=\"text-md\" data-sb-field=\"project2Description\">Behind the Dish is a virtual reality docuseries on gastronomy and female chefs, filmed in VR 360° and macro stereo 3D.</p><br>\n<p><strong>Skills:</strong> Production, project management, research, writing, planning, video capture, budgeting, social media, contracts</p><br>\n<p><strong>Pre-production:</strong> Researched food-related topics and characters, conducted pre-interviews with chefs from several countries, and edited screenplay drafts written by the director.</p>\n<p><strong>Production:</strong> Planned several week-long filming trips to Japan and the USA. Managed a budget and cast, hired and briefed freelancers. Captured 360° videos and sound for each episode of the series on the ground.</p>\n<p><strong>Licensing:</strong> Licensed artwork and photographs and managed a budget.</p>\n<p><strong>PR:</strong> Drew up the release plan of the series and the copy on social media.</p>\n<p><strong>Distribution:</strong> Handled the publishing process on Meta Quest TV. Oversaw PR efforts and media outreach. Submitted the series to dozens of festivals throughout the year and responded to interviews on the project.</p>",
+      "url": "https://www.targostories.com/jfk-memento"
+    }
+  ],
+
+  "previousWork": [
+    {
+      "title": "EL PASO ECRASÉE PAR LE COVID-19",
+      "role": "Reporter",
+      "company": "AFP",
+      "description": "Vêtus d'un uniforme à rayures, protégés par un masque, des gants et des lunettes, des détenus s'activent pour gérer l'afflux des corps à la morgue. El Paso, au Texas, croule sous le nombre de cas de coronavirus.",
+      "url": "https://www.lapresse.ca/international/etats-unis/2020-11-19/texas/el-paso-ecrasee-par-la-covid-19.php",
+      "category": "HEALTH"
+    },
+    {
+      "title": "LA TRAQUE DES CLANDESTINS À LA FRONTIÈRE DÉSERTIQUE DU TEXAS",
+      "role": "Reporter",
+      "company": "AFP",
+      "description": "Il n'a fallu qu'un instant à l'agent des douanes Gregory Davis pour apercevoir une tache de couleur sur un canyon escarpé et repérer un homme coiffé d’un bonnet noir, prostré sur un rocher. En détresse, cet homme originaire du Guatemala a traversé illégalement les montagnes mexicaines et le Rio Grande pour rejoindre les Etats-Unis.",
+      "url": "https://www.courrier-picard.fr/id67766/article/2020-02-09/la-traque-des-clandestins-la-frontiere-desertique-du-texas",
+      "category": "IMMIGRATION"
+    },
+    {
+      "title": "U.S. OIL WORKERS LEARN PATIENCE",
+      "role": "Reporter",
+      "company": "AFP",
+      "description": "Many oil workers in the arid southwestern state have already left the campgrounds where they had parked their RVs, after being drawn here by exceptionally high salaries.",
+      "url": "https://energy.economictimes.indiatimes.com/news/oil-and-gas/with-prices-down-and-jobs-leaving-us-oil-workers-learn-patience/75667047?redirect=1",
+      "category": "ENERGY"
+    },
+    {
+      "title": "¿SON LAS PLATAFORMAS DIGITALES UNA AMENAZA PARA EL CINE TRADICIONAL?",
+      "role": "Commentator",
+      "company": "France 24",
+      "description": "El Festival de Cannes, qui réunit à une grande quantité d'artistes et de personnalités du monde du cinéma, se déroulera au milieu du débat originaire par la force croissante des plateformes digitales, qui continuent de se multiplier et de gagner des prix de renom. Dans cette édition de En Primera Plana, nous analysons le modèle Netflix et s'il mettra fin aux salles de cinéma traditionnelles.",
+      "url": "https://www.france24.com/es/20190512-primera-plana-cine-cannes-netflix",
+      "category": "CULTURE"
+    },
+    {
+      "title": "HOMMAGE À JOHNNY HALLYDAY : «APRÈS SON DÉCÈS, JE SUIS DEVENUE COMME POSSÉDÉE»",
+      "role": "Reporter",
+      "company": "Le Figaro",
+      "description": "Ils ont parfois fait des centaines de kilomètres pour célébrer leur idole disparue en décembre. Mais sans ticket d'entrée, impossible de gagner l'église parisienne pour l'hommage musical organisé vendredi matin. Paroles de fans.",
+      "url": "https://www.lefigaro.fr/musique/2018/06/15/03006-20180615ARTFIG00355-hommage-a-johnny-hallyday-apres-son-deces-je-suis-devenue-comme-possedee.php",
+      "category": "CULTURE"
+    },
+    {
+      "title": "ENQUÊTE SUR CES JOURNALISTES QUI JOUENT LEUR PROPRE RÔLE DANS LES FICTIONS",
+      "role": "Reporter",
+      "company": "Les Inrockuptibles",
+      "description": "Patrick Cohen, Nicolas Demorand, Léa Salamé et d’autres interprètent leur propre personnage dans Baron noir, la série de Canal+. Au risque de brouiller les cartes ?",
+      "url": "https://www.lesinrocks.com/actu/enqu%C3%AAte-sur-ces-journalistes-qui-jouent-leur-propre-r%C3%B4le-dans-les-fictions-134171-02-02-2018/",
+      "category": "MEDIA"
+    },
+    {
+      "title": "Y A-T-IL UN AVENIR JAPONAIS POUR LES AUTEURS DE MANGA FRANÇAIS ?",
+      "role": "Reporter",
+      "company": "Le Figaro",
+      "description": "ENQUÊTE - Grande première dans l'histoire du manga français, l'œuvre d'un auteur va être adaptée en dessin animé par la télévision japonaise. À l'occasion de la Japan Expo, rendez-vous annuel des fans de culture nippone, zoom sur le manga gaulois. A-t-il les moyens de s'exporter au pays du Soleil-Levant ?",
+      "url": "https://www.lefigaro.fr/bd/2018/07/07/03014-20180707ARTFIG00089-y-a-t-il-un-avenir-pour-les-auteurs-de-manga-francais.php",
+      "category": "MEDIA"
+    }
+  ]
+}

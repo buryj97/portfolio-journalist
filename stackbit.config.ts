@@ -4,6 +4,7 @@ import { GitContentSource } from "@stackbit/cms-git";
 
 export default defineStackbitConfig({
   stackbitVersion: "~0.6.0",
+  nodeVersion: "18",
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
@@ -13,7 +14,7 @@ export default defineStackbitConfig({
           name: "IndexPage",
           type: "page",
           urlPath: "/",
-          filePath: "index.html",
+          filePath: "index_test.html",
           fields: [
             {
               name: "header",
