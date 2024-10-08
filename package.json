@@ -1,0 +1,17 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@stackbit/cms-git": "^1.0.15",
+    "@stackbit/sdk": "^2.1.3",
+    "@stackbit/types": "^2.1.0"
+  }
+}
